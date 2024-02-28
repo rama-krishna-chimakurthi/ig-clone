@@ -1,12 +1,20 @@
 {
   "expo": {
-    "name": "blank",
+    "name": "Instagram Clone",
     "slug": "blank",
     "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7116fbcc-054c-48d9-bc35-7ff733110e6b"
+      }
+    },
+    "android": {
+      "package": "com.ramakrishna.ig.clone"
+    }
   }
 }
