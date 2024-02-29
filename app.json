@@ -1,20 +1,36 @@
 {
   "expo": {
     "name": "Instagram Clone",
-    "slug": "blank",
+    "slug": "ig-clone",
     "version": "1.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
     ],
-    "extra": {
-      "eas": {
-        "projectId": "7116fbcc-054c-48d9-bc35-7ff733110e6b"
-      }
+    "ios": {
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.ramakrishna.ig.clone"
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ramakrishnach.igclone"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a5ab9b36-d805-4921-8dc0-b54aa9ddbe53"
+      }
     }
   }
 }
